@@ -3,8 +3,8 @@ def simple_interest(principal, rate, time):
 
 
 if __name__ == "__main__":
-    principal = float(input("Enter the principal amount: "))
-    rate = float(input("Enter the rate of interest (%): "))
-    time = float(input("Enter the time in years: "))
+    principal = 1000
+    rate = 2
+    time = 2
 
-    print("Simple interest is:", simple_interest(principal, rate, time)
+    print("Simple interest is:", simple_interest(principal, rate, time))
